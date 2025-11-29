@@ -19,13 +19,16 @@ This README serves as the project’s documentation.
 
 ## Project Structure
 
+```
 project/
-|
-├── node.py # Node class for the Binary Search Tree
-├── bst.py # BST implementation with insert, traversal, and range query
-|
-├── main.py # Analyzer program that builds the tree and runs queries
-└── README.md # Project documentation
+│
+├── node.py     # Node class for the Binary Search Tree
+├── bst.py      # BST implementation with insert, traversal, and range query
+│
+├── main.py     # Analyzer program that builds the tree and runs queries
+└── README.md   # Project documentation
+```
+
 
 ---
 
