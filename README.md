@@ -70,6 +70,62 @@ Counts photon energies within the inclusive range `[low, high]` by:
 
 ---
 
+## **Future Implementations**
+
+Several enhancements from the original project design were not included in the initial version but would significantly expand the analyzer’s capabilities in future iterations:
+
+### **Automated Testing & Validation***
+
+Implement the five formal test cases outlined in the design document
+
+Use pytest to verify:
+
+Correct duplicate counting
+
+Proper BST insertion structure
+
+Accurate range-query behavior
+
+Correctness on large datasets by comparing against Python list filtering
+
+Handling of edge cases such as empty lists or zero-width ranges
+
+### **Real-Time Streaming Input**
+
+Extend the analyzer to accept continuous photon-energy input
+
+Update the BST dynamically as new data arrives
+
+Optionally refresh the histogram in real time
+
+Would mirror real detector-based acquisition pipelines.
+
+### **Dictionary-Based Validation Tools**
+
+Compare BST frequency counts against a dictionary-based frequency table
+
+Useful for automated correctness verification on synthetic or file-based datasets
+
+Completes the original plan for dual-structure validation.
+
+### **Performance Benchmarking**
+
+Measure and compare:
+
+BST range query performance
+
+Direct list scanning (for x in energies)
+
+Demonstrates the algorithmic advantage of tree-based analysis for large N.
+
+Additional BST Functionality
+
+Implement search(energy) for direct node lookup
+
+This would complete the classical BST interface beyond insertion, traversal, and range query.
+
+---
+
 ## Input Data
 
 ### **Simulated Data**
