@@ -75,10 +75,10 @@ Counts photon energies within the inclusive range `[low, high]` by:
 ### **Simulated Data**
 Photon energies may be generated mathematically (e.g., Gaussian distributions), allowing testing without external files.
 
-### **External Files (Future Improvement)**
-Potential support for:
+### **External Files**
+Support for:
 - `.txt` files  
-- `.csv` files  
+- `.csv` files
 (One energy value per line)
 
 ---
